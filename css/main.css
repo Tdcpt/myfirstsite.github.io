@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 60px;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.gallery{
+    background-color: cornflowerblue;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+}
+
+.frame{
+    width: 300px;
+    height: 230px;
+    background-color:rgb(24, 150, 172);
+    margin: 50px;
+    transition: all 0,5s ease;
+}
+
+.frame:hover{
+    transform: rotate(-3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px black;
+}
+
+.frame p{
+    line-height: 30px;
+    text-align: center;
+}
+
+.frameing{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.photo1{
+    background-image: url(..//img/photo1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo2{
+    background-image: url(..//img/photo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3{
+    background-image: url(..//img/photo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo4{
+    background-image: url(..//img/photo4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo5{
+    background-image: url(..//img/photo5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo6{
+    background-image: url(..//img/photo6.jpg);
+    background-position: center;
+    background-size: cover;
+}
